@@ -25,9 +25,17 @@ html {
 }
 
 .banner {
-
+  display: block;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  max-height: 100%;
 }
 
 .banner-content {
-
+  position: absolute;
+  bottom: 1px;
+  left: 1px;
+  color: white;
+  text-align: center;
 }
